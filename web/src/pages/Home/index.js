@@ -1,13 +1,17 @@
 import React from "react";
 import * as S from "./style";
+import { setIcon, TabTitle } from "../../utils/GeneralFuntions";
 
 import bb from "../../img/Barbar.png";
 import polaro from "../../img/polaro.png";
+import fitaC from "../../img/fitaC.png";
+
+import balao from "../../img/icons/balao.ico"
 
 
 function Home() {
+    setIcon(balao)
     return (
-
         <section>
             <S.GlobalStyle />
             <S.TextDegrade>
@@ -33,9 +37,11 @@ function Home() {
             </S.TextDegradeData>
 
             <S.GridAno>
+
                 <S.IntoGridAno>
                     <S.ImagePolaro src={polaro} alt="polaro" />
                 </S.IntoGridAno>
+
                 <S.IntoGridAno2>
                     <S.TextComemora>
                         Feliz Aniversario!
@@ -43,7 +49,16 @@ function Home() {
                     <S.TextComemoraData>
                         14 de Outubro
                     </S.TextComemoraData>
+                    <S.ContentData>
+                        texto dos bons texto dos bons texto dos bons texto dos bons
+                        texto dos bons texto dos bons texto dos bons
+                    </S.ContentData>
+                    <S.DataGrandeLado>
+                        2022
+                    </S.DataGrandeLado>
+                    <S.ImagefitaC src={fitaC} alt="fitaC" />
                 </S.IntoGridAno2>
+
             </S.GridAno>
 
         </section>
