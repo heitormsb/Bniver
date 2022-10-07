@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Bniver/static/css/main.073c9b0a.css",
-    "main.js": "/Bniver/static/js/main.ec245c49.js",
+    "main.js": "/Bniver/static/js/main.10d28890.js",
     "static/js/787.d1d4a2c2.chunk.js": "/Bniver/static/js/787.d1d4a2c2.chunk.js",
     "static/media/polaro.png": "/Bniver/static/media/polaro.be1e937f37e6bbe35eaf.png",
     "static/media/Barbar.png": "/Bniver/static/media/Barbar.18f2d709cb0d51461515.png",
@@ -18,11 +18,11 @@
     "static/media/interroga.ico": "/Bniver/static/media/interroga.aaaa41f549c3a48ba6dd.ico",
     "index.html": "/Bniver/index.html",
     "main.073c9b0a.css.map": "/Bniver/static/css/main.073c9b0a.css.map",
-    "main.ec245c49.js.map": "/Bniver/static/js/main.ec245c49.js.map",
+    "main.10d28890.js.map": "/Bniver/static/js/main.10d28890.js.map",
     "787.d1d4a2c2.chunk.js.map": "/Bniver/static/js/787.d1d4a2c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.ec245c49.js"
+    "static/js/main.10d28890.js"
   ]
 }
