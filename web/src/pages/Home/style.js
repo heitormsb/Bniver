@@ -5,11 +5,22 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background: #E5DDDD;
         overflow-x: hidden; /* Hide horizontal scrollbar */
+        /* font-family: 'Inter', sans-serif; */
     }
     `
+// export const GlobalFont = createGlobalStyle`
+//     @font-face {
+//         font-family: "Inter";
+//         /* src: url('../../fonts/Inter.ttf') format("truetype"); */
+//         src: url('../../fonts/Silkscreen.ttf') format("truetype");
+//         font-weight: normal;
+//     }
+//     `
+
 export const TextDegrade = styled.div` 
     width: 40vw;
     font-family: 'Inter', sans-serif;
+    /* font-family: 'Silkscreen', cursive; */
     margin-left: 6.2vw;
 
     /* identical to box height */
@@ -141,14 +152,14 @@ export const IntoGridAno2 = styled.div`
 `; 
 
 export const DataGrandeLado = styled.div` 
-    position:relative;
+    position:absolute;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 900;
     /* font-size: 450px; */
     font-size: 32vw;
     opacity: 0.45;
-    margin-left:-5vw;
+    margin-left:-4.5vw;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
@@ -184,16 +195,18 @@ export const ImagefitaC = styled.img`
     display: block;
     margin-left: auto;
     /* position: absolute; */
-    margin-right: 30vw;
-    width: 26%;
+    /* margin-right: 30vw; */
+    width: 29%;
     /* top: 70px; */
     /* top: 6vw; */
     /* bottom: 1vw; */
     /* left: 30px;  */
     /* margin-left: 15%; */
-    margin-top: -18vw;
+    margin-top: 23vw;
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
 `; 
+
+
 

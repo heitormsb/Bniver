@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "./style";
-import { setIcon, TabTitle } from "../../utils/GeneralFuntions";
+import { setIcon } from "../../utils/GeneralFuntions";
 
 import bb from "../../img/Barbar.png";
 import polaro from "../../img/polaro.png";
@@ -14,6 +14,7 @@ function Home() {
     return (
         <section>
             <S.GlobalStyle />
+            {/* <S.GlobalFont /> */}
             <S.TextDegrade>
                 <S.TextFino>
                     SEUS DIAS
