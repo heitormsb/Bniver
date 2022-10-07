@@ -12,7 +12,7 @@ import Seta from "../../img/seta.png"
 import icon from "../../img/icons/interroga.ico"
 
 function EnigmaCruz() {
-    TabTitle("Tau");
+    TabTitle("Forma");
     setIcon(icon)
 
     let navigate = useNavigate();
@@ -23,7 +23,7 @@ function EnigmaCruz() {
         let text = anwser.toLowerCase();
         text = text.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
         console.log(`Form submitted, ${anwser}`);  
-        if(text=="p66" || text=="papiro 66" || text=="papiro66"){
+        if(text=="cruz"){
             navigate("/home"); 
         }
     }
@@ -76,7 +76,7 @@ function EnigmaCruz() {
             </S.MidSetas>
             
             <S.TextEvang>
-                Evangelho de João
+                {/* Evangelho de João */}
             </S.TextEvang>
         
             <S.Form onSubmit = {handleSubmit}>
