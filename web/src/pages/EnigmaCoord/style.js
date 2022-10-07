@@ -53,21 +53,21 @@ export const GridTop = styled.div`
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
 `; 
-// export const IntoGrid = styled.div` 
-//     /* grid-column: 1; */
-// `; 
-// export const IntoGrid1 = styled.div` 
-//     /* grid-column: 2; */
-//     justify-self: end;
-//     align-self: end;
-// `; 
+
+export const Center = styled.div`
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:100vw;
+`;
 
 export const MapaC = styled.img` 
     width: 35%;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -14vw;
+    /* margin-top: -14vw; */
     justify-content:center;
     -moz-user-select: none;
     -webkit-user-select: none;

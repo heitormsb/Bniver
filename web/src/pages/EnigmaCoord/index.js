@@ -46,16 +46,18 @@ function EnigmaCoord() {
                     <S.Planta3 src={planta3} alt="planta3" />
             </S.GridTop>
 
-            <S.MapaC src={mapaC} alt="mapaC" />
+            <S.Center>
+                <S.MapaC src={mapaC} alt="mapaC" />
 
-            <S.TextEvang>
-                O primeiro dia
-            </S.TextEvang>
+                <S.TextEvang>
+                    O primeiro dia
+                </S.TextEvang>
 
-            <S.Form onSubmit = {handleSubmit}>
-                <S.Input type="text" placeholder='Resposta' onChange = {(e) => setName(e.target.value)} value = {anwser} />
-                <S.Button type="submit">Submit</S.Button>
-            </S.Form>
+                <S.Form onSubmit = {handleSubmit}>
+                    <S.Input type="text" placeholder='Resposta' onChange = {(e) => setName(e.target.value)} value = {anwser} />
+                    <S.Button type="submit">Submit</S.Button>
+                </S.Form>
+            </S.Center>
 
             <S.GridBottom>
                     <S.Planta2 src={planta2} alt="planta2" />

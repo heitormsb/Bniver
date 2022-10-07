@@ -40,6 +40,13 @@ export const Planta4 = styled.img`
     align-self: end;
 `; 
 
+export const Center = styled.div`
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+`;
+
 export const GridTop = styled.div` 
     display: grid;
     grid-template-columns: repeat(2, 1fr);

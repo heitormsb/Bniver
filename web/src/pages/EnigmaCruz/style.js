@@ -56,6 +56,7 @@ export const TextSiga = styled.div`
     text-align: center;
 `; 
 
+
 export const TextEvang = styled.div` 
     width: 50vw;
     display: block;
@@ -118,6 +119,13 @@ export const GridTop = styled.div`
     grid-template-columns: repeat(1, 1fr);
     margin: auto;
 `; 
+
+export const Center = styled.div`
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+`;
 
 export const GridBottom = styled.div` 
     display: grid;

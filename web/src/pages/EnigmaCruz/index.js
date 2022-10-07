@@ -35,54 +35,57 @@ function EnigmaCruz() {
                     <S.Planta3 src={planta3} alt="planta3" />
             </S.GridTop>
 
-            <S.TextSiga>
-                Siga as instruções:
-            </S.TextSiga>
+            <S.Center>
 
-            <S.MidSetas>
-                <S.SetaCima src={Seta} alt="seta" />
-                <S.SetaCima src={Seta} alt="seta" />
-                <S.SetaCima src={Seta} alt="seta" />
+                <S.TextSiga>
+                    Siga as instruções:
+                </S.TextSiga>
 
-                <S.SetaEsq src={Seta} alt="seta" />
-                <S.SetaEsq src={Seta} alt="seta" />
+                <S.MidSetas>
+                    <S.SetaCima src={Seta} alt="seta" />
+                    <S.SetaCima src={Seta} alt="seta" />
+                    <S.SetaCima src={Seta} alt="seta" />
 
-                <S.SetaCima src={Seta} alt="seta" />
+                    <S.SetaEsq src={Seta} alt="seta" />
+                    <S.SetaEsq src={Seta} alt="seta" />
 
-                <S.SetaDir src={Seta} alt="seta" />
-                <S.SetaDir src={Seta} alt="seta" />
+                    <S.SetaCima src={Seta} alt="seta" />
 
-                <S.SetaCima src={Seta} alt="seta" />
-                <S.SetaCima src={Seta} alt="seta" />
+                    <S.SetaDir src={Seta} alt="seta" />
+                    <S.SetaDir src={Seta} alt="seta" />
 
-                <S.SetaDir src={Seta} alt="seta" />
+                    <S.SetaCima src={Seta} alt="seta" />
+                    <S.SetaCima src={Seta} alt="seta" />
+
+                    <S.SetaDir src={Seta} alt="seta" />
+                    
+                    <S.SetaBaixo src={Seta} alt="seta" />
+                    <S.SetaBaixo src={Seta} alt="seta" />
+
+                    <S.SetaDir src={Seta} alt="seta" />
+                    <S.SetaDir src={Seta} alt="seta" />
+
+                    <S.SetaBaixo src={Seta} alt="seta" />
+
+                    <S.SetaEsq src={Seta} alt="seta" />
+                    <S.SetaEsq src={Seta} alt="seta" />
+
+                    <S.SetaBaixo src={Seta} alt="seta" />
+                    <S.SetaBaixo src={Seta} alt="seta" />
+                    <S.SetaBaixo src={Seta} alt="seta" />
+
+                    <S.SetaEsq src={Seta} alt="seta" />
+                </S.MidSetas>
                 
-                <S.SetaBaixo src={Seta} alt="seta" />
-                <S.SetaBaixo src={Seta} alt="seta" />
-
-                <S.SetaDir src={Seta} alt="seta" />
-                <S.SetaDir src={Seta} alt="seta" />
-
-                <S.SetaBaixo src={Seta} alt="seta" />
-
-                <S.SetaEsq src={Seta} alt="seta" />
-                <S.SetaEsq src={Seta} alt="seta" />
-
-                <S.SetaBaixo src={Seta} alt="seta" />
-                <S.SetaBaixo src={Seta} alt="seta" />
-                <S.SetaBaixo src={Seta} alt="seta" />
-
-                <S.SetaEsq src={Seta} alt="seta" />
-            </S.MidSetas>
-            
-            <S.TextEvang>
-                {/* Evangelho de João */}
-            </S.TextEvang>
+                <S.TextEvang>
+                    {/* Evangelho de João */}
+                </S.TextEvang>
         
-            <S.Form onSubmit = {handleSubmit}>
-                <S.Input type="text" placeholder='Resposta' onChange = {(e) => setName(e.target.value)} value = {anwser} />
-                <S.Button type="submit">Submit</S.Button>
-            </S.Form>
+                <S.Form onSubmit = {handleSubmit}>
+                    <S.Input type="text" placeholder='Resposta' onChange = {(e) => setName(e.target.value)} value = {anwser} />
+                    <S.Button type="submit">Submit</S.Button>
+                </S.Form>
+            </S.Center>
 
             <S.GridBottom>
                     <S.Planta4 src={planta4} alt="planta4" />
